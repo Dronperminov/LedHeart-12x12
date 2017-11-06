@@ -1,0 +1,1 @@
+avrdude\avrdude -pm32 -cusbasp -PUSB -b19200 -Uflash:w:firmware/led_heart.hex:a
